@@ -1,7 +1,7 @@
 
 # 使用filemanager-webpack-plugin2.0.5版本vue2打包dist包之后生成zip压缩包
 根据项目的package.json里面的配置打包成name-verson-time
-test1
+test2
 ## npm 库地址
 https://www.npmjs.com/package/filemanager-vue2-dist-zip
 
