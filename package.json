@@ -1,6 +1,6 @@
 {
   "name": "filemanager-vue2-dist-zip",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "使用filemanager-webpack-plugin2.0.5版本vue2打包dist包之后生成zip压缩包",
   "author": "2847426033@qq.com <2847426033@qq.com>",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zerofree00/custom-template/tree/filemanager-vue2-dist-zip"
+    "url": "git+https://github.com/zerofree00/filemanager-vue2-dist-zip"
   },
   "keywords": [
     "filemanager-vue2-dist-zip",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "https://github.com/zerofree00/custom-template/tree/filemanager-vue2-dist-zip#readme",
+  "homepage": "https://github.com/zerofree00/filemanager-vue2-dist-zip#readme",
   "scripts": {
     "build": "rollup -c",
     "publish": "npm publish"
