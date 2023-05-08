@@ -1,0 +1,56 @@
+{
+  "name": "filemanager-vue2-dist-zip",
+  "version": "0.2.3",
+  "description": "使用filemanager-webpack-plugin2.0.5版本vue2打包dist包之后生成zip压缩包",
+  "author": "2847426033@qq.com <2847426033@qq.com>",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerofree00/custom-template/tree/filemanager-vue2-dist-zip"
+  },
+  "keywords": [
+    "filemanager-vue2-dist-zip",
+    "dist-zip"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/zerofree00/custom-template/tree/filemanager-vue2-dist-zip#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "publish": "npm publish"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "ava": "^2.3.0",
+    "delay": "^2.0.0",
+    "eslint": "^4.16.0",
+    "glob": "^7.1.2",
+    "jszip": "^3.1.5",
+    "prettier": "^1.10.2",
+    "rollup": "^0.63.5",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-includepaths": "^0.2.3",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "filemanager-webpack-plugin": "^2.0.5"
+  }
+}

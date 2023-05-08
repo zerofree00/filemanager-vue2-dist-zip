@@ -1,0 +1,31 @@
+{
+  "description": "Test webpack 3",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "rimraf testing && cross-env WEBPACK_CONFIG_PATH=webpack-3 ava --verbose ../test.js",
+    "webpack": "webpack --progress",
+    "webpack-dev-server": "webpack-dev-server --colors --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VizualAbstract/filemanager-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "VizualAbstract",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VizualAbstract/filemanager-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/VizualAbstract/filemanager-webpack-plugin#readme",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "rimraf": "^2.6.2"
+  }
+}
