@@ -32,16 +32,12 @@ const extract = function(date) {
 }
 
 const time = `${extract(new Date())}`
-console.log('zip time==========', time)
 
-const plugin = function(sourcePath) {
-  // const packageName = `${ packageData.name }-v${ packageData.version }`
-  const packageName = `${packageData.name}@${packageData.version}`
-  // console.log('packageName==========', packageName)
-  // let outputDirName = name || `dist/${ packageName }`
+const plugin = function({ sourcePath, desPath }) {
+  const packageName = desPath || `${packageData.name}@${packageData.version}`
   const outputDirName = sourcePath || 'dist'
-  // let destinationPath = `${ outputDirName }/${ packageName }`
 
+  console.log('zip time==========', time)
   console.log('开始压缩==========', outputDirName, packageName)
   return new FileManagerPlugin({
     // events: {

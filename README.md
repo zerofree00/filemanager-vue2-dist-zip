@@ -12,7 +12,13 @@ https://www.npmjs.com/package/filemanager-vue2-dist-zip
 ## vue2.x项目打包的时候，直接压缩dist生成zip
 > zipPlugin 可传入自定义的包名 与outputDir 保持一致,
 > 
-> 如： zipPlugin('dist2')
+> 传入2个参数 { sourcePath, desPath }
+> 
+> sourcePath：目标包的名字，及，默认dist
+>
+> desPath：压缩出来的包的名字，及，默认 packageData.name + packageData.version
+> 
+> 如： zipPlugin({ sourcePath : 'dist2' , desPath : 'xx项目'  })
 > 
 > 默认dist文件名
 
@@ -30,7 +36,7 @@ time // 返回打出来的zip的包的时间
 `
 configureWebpack: {
 devtool,
-plugins: process.env.NODE_ENV === 'production' ? [zipPlugin('cppcc-data-exchange-shanxi')] : []
+plugins: process.env.NODE_ENV === 'production' ? [zipPlugin({ desPath : 'xx项目'  })] : []
 }
 `
 
