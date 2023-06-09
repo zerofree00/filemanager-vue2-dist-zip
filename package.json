@@ -1,6 +1,6 @@
 {
   "name": "filemanager-vue2-dist-zip",
-  "version": "0.2.5",
+  "version": "0.2.7",
   "description": "使用filemanager-webpack-plugin2.0.5版本vue2打包dist包之后生成zip压缩包",
   "author": "2847426033@qq.com <2847426033@qq.com>",
   "main": "lib/index.js",
